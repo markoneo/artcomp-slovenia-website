@@ -99,7 +99,8 @@ export default function Home() {
               playsInline
               className="w-full h-auto"
             >
-              <source src="/27zn1jl933zbwv3wicxoqdlizmm.mp4" type="video/mp4" />
+              <source src="/video.artcom.webm" type="video/webm" />
+              <source src="/video.artcom.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
