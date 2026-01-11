@@ -853,58 +853,40 @@
       </div>
     </section>
 
-    <!-- Page 8: Footer & Newsletter -->
-    <footer class="pt-24 pb-12 px-6 bg-[#EF9B0F]">
+    <!-- Page 8: Contact Section -->
+    <section class="pt-24 pb-20 px-6 bg-black">
       <div class="max-w-6xl mx-auto">
-        <div
-          class="reveal flex flex-col md:flex-row justify-between items-start md:items-center mb-20 gap-8"
-        >
+        <div class="reveal flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div>
-            <h2 class="text-3xl tracking-tight text-black mb-2 font-display font-medium">
+            <h2 class="text-3xl tracking-tight text-white mb-2 font-display font-medium">
               Get in touch
             </h2>
-            <p class="text-black/60 text-sm">
+            <p class="text-gray-500 text-sm">
               Reach out to discuss how we can help your business grow.
             </p>
           </div>
-          <form
-            action="mailto:info@artcomp.net"
-            method="post"
-            enctype="text/plain"
-            class="flex w-full md:w-auto gap-2"
-          >
-            <input
-              type="email"
-              name="email"
-              placeholder="Your email"
-              class="bg-black/5 border border-black/10 rounded-lg px-4 py-2 text-sm text-black placeholder-black/40 focus:outline-none focus:border-black/30 w-full md:w-64"
-              required=""
-            />
-            <button
-              type="submit"
-              class="bg-black text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-black/90 transition-colors whitespace-nowrap"
-            >
+          <form action="mailto:info@artcomp.net" method="post" enctype="text/plain" class="flex w-full md:w-auto gap-2">
+            <input type="email" name="email" placeholder="Your email" class="bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-blue-500/50 w-full md:w-64" required="">
+            <button type="submit" class="bg-white text-black text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors whitespace-nowrap">
               Email Us
             </button>
           </form>
         </div>
+      </div>
+    </section>
 
-        <div
-          class="reveal delay-100 grid grid-cols-2 md:grid-cols-4 gap-12 border-t border-black/10 pt-16"
-        >
+    <!-- Footer -->
+    <footer class="py-16 px-6 bg-[#EF9B0F]">
+      <div class="max-w-6xl mx-auto">
+        <div class="reveal grid grid-cols-2 md:grid-cols-4 gap-12">
           <div class="col-span-2 md:col-span-1">
-            <span
-              class="text-lg font-semibold tracking-tighter text-black block mb-4 font-display"
-            >
+            <span class="text-lg font-semibold tracking-tighter text-black block mb-4 font-display">
               Artcomp
             </span>
             <p class="text-xs text-black/60 mb-4 leading-relaxed">
               Empowering businesses with AI strategy &amp; solutions.
             </p>
-            <a
-              href="mailto:info@artcomp.net"
-              class="inline-flex items-center gap-2 text-xs font-medium text-black hover:text-black/70 transition-colors"
-            >
+            <a href="mailto:info@artcomp.net" class="inline-flex items-center gap-2 text-xs font-medium text-black hover:text-black/70 transition-colors">
               <iconify-icon icon="lucide:mail" width="14"></iconify-icon>
               info@artcomp.net
             </a>
@@ -973,10 +955,8 @@
             </ul>
           </div>
         </div>
-
-        <div
-          class="mt-20 pt-8 border-t border-black/10 flex flex-col md:flex-row justify-between items-center gap-4"
-        >
+        
+        <div class="mt-16 pt-8 border-t border-black/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p class="text-[10px] text-black/40 uppercase tracking-widest font-medium">
             © 2026 Artcomp Slovenia. All rights reserved.
           </p>
