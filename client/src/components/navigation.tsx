@@ -29,16 +29,10 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 2L2 7l10 5 10-5-10-5z" />
-              <path d="M2 17l10 5 10-5" />
-              <path d="M2 12l10 5 10-5" />
-            </svg>
-          </div>
+        <a href="#" className="flex items-center gap-2.5">
+          <img src="/90494.jpg" alt="Artcomp Technologies" className="h-9 w-auto object-contain" />
           <span className="text-lg font-bold tracking-tight text-foreground">
-            GreenRoute
+            Artcomp Technologies
           </span>
         </a>
 

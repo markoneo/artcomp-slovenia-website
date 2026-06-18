@@ -26,18 +26,12 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                  <path d="M2 17l10 5 10-5" />
-                  <path d="M2 12l10 5 10-5" />
-                </svg>
-              </div>
-              <span className="text-lg font-bold text-foreground">GreenRoute</span>
+            <div className="flex items-center gap-2.5 mb-4">
+              <img src="/90494.jpg" alt="Artcomp Technologies" className="h-9 w-auto object-contain" />
+              <span className="text-lg font-bold text-foreground">Artcomp Technologies</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Powering the shift to sustainable ground transportation across 35+ countries.
+              Powering the shift to sustainable ground transportation across 35+ countries. An Artcomp Technologies initiative.
             </p>
             <div className="flex items-center gap-1.5 text-xs text-primary">
               <Leaf size={12} />
@@ -68,7 +62,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            2026 GreenRoute Technologies. All rights reserved.
+            2026 Artcomp Technologies. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
