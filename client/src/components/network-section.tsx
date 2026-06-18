@@ -1,11 +1,11 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Globe as Globe2, Brain as Train, Bus, Ship, ArrowRight } from "lucide-react";
+import { Globe as Globe2, Leaf, Globe, Rocket, ArrowRight } from "lucide-react";
 
 const modes = [
-  { icon: Train, label: "Rail", count: "180+" },
-  { icon: Bus, label: "Coach & Bus", count: "300+" },
-  { icon: Ship, label: "Ferry", count: "45+" },
+  { icon: Leaf, label: "CO\u2082 Reduced", count: "2.4M" },
+  { icon: Globe, label: "Partners", count: "500+" },
+  { icon: Rocket, label: "AI Optimized Trips", count: "1.2M" },
 ];
 
 export default function NetworkSection() {
