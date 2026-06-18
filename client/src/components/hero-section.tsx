@@ -43,7 +43,7 @@ export default function HeroSection() {
         style={{ backgroundImage: "url('/aerial-view-of-intersecting-freeway-interchange-4k.jpeg')" }}
       />
       {/* Light overlay */}
-      <div className="absolute inset-0 bg-white/40" />
+      <div className="absolute inset-0 bg-white/75" />
       {/* Background grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(16,185,129,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(16,185,129,0.03)_1px,transparent_1px)] bg-[size:64px_64px]" />
 
