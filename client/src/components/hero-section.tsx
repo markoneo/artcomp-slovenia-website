@@ -40,7 +40,7 @@ export default function HeroSection() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-[3px]"
-        style={{ backgroundImage: "url('/aerial-view-of-intersecting-freeway-interchange-4k.jpeg')" }}
+        style={{ backgroundImage: "url('/eco-friendly-car-on-paper-cut-green-landscape-illustration-4k.jpeg')" }}
       />
       {/* Light overlay */}
       <div className="absolute inset-0 bg-white/75" />
