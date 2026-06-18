@@ -56,7 +56,9 @@ export default function Navigation() {
             Contact
           </a>
           <a
-            href="#partners"
+            href="https://www.ridepilot.org"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-4 py-2 text-sm font-semibold hover:opacity-90 transition-opacity"
           >
             Get Started
@@ -91,7 +93,9 @@ export default function Navigation() {
                 </a>
               ))}
               <a
-                href="#partners"
+                href="https://www.ridepilot.org"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-4 py-2.5 text-sm font-semibold mt-2"
               >
