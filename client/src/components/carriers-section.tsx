@@ -12,7 +12,7 @@ const products = [
   },
   {
     icon: Bot,
-    title: "AI Support Agent",
+    title: "AI Support",
     description:
       "Keep passengers informed throughout their journey with an intelligent agent that handles common questions, cuts support overhead, and operates continuously without breaks.",
     cta: "Explore AI features",
