@@ -32,7 +32,7 @@ const particles = [
   { delay: 2.2, x: "65%", y: "85%", size: 5 },
 ];
 
-const trustedBy = ["FlixBus", "Eurolines", "National Express", "Busbud", "RegioJet"];
+const trustedBy = ["Booking.com", "Viator", "Kayak", "Venice2Trieste", "RidePilot", "TransferWay"];
 
 export default function HeroSection() {
   return (
