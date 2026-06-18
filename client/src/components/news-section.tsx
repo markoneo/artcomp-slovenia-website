@@ -1,39 +1,39 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Calendar, ArrowRight, Leaf, Award, Handshake } from "lucide-react";
+import { Calendar, ArrowRight, Leaf, Handshake, Cpu, ChartBar as BarChart3 } from "lucide-react";
 
 const newsItems = [
   {
-    icon: Leaf,
+    icon: Cpu,
     date: "June 2026",
-    category: "Sustainability",
-    title: "GreenRoute recognized in EU Green Deal transport accelerator program",
+    category: "AI",
+    title: "AI for Green Mobility",
     excerpt:
-      "Our platform has been selected as a key technology partner in the EU's initiative to digitize and decarbonize intercity ground transportation.",
+      "Reducing unnecessary vehicle movements through predictive route optimization and intelligent dispatch technology.",
   },
   {
     icon: Handshake,
     date: "May 2026",
     category: "Partnership",
-    title: "New strategic alliance with three major European rail operators",
+    title: "Cross-Border Cooperation",
     excerpt:
-      "Expanding our rail network coverage by 40% across Central and Eastern Europe, enabling seamless cross-border sustainable travel.",
-  },
-  {
-    icon: Award,
-    date: "April 2026",
-    category: "Product",
-    title: "AI Travel Assistant reaches 1 million conversations milestone",
-    excerpt:
-      "Our conversational AI now handles over 1M monthly interactions, driving a 35% increase in booking completion rates for partner platforms.",
+      "Connecting transport providers and tourism stakeholders across European regions through a shared digital platform.",
   },
   {
     icon: Leaf,
+    date: "April 2026",
+    category: "Innovation",
+    title: "Digital Innovation",
+    excerpt:
+      "Supporting SMEs with AI-powered tools that improve operational efficiency and passenger experience.",
+  },
+  {
+    icon: BarChart3,
     date: "March 2026",
     category: "Impact",
-    title: "Platform surpasses 2 million tonnes of CO2 emissions avoided",
+    title: "Climate Impact",
     excerpt:
-      "By shifting travelers from private vehicles and short-haul flights to ground transport, our network has now prevented over 2M tonnes of carbon emissions.",
+      "Enabling measurable reductions in CO\u2082 emissions through smarter transportation planning and sustainable mobility solutions.",
   },
 ];
 
