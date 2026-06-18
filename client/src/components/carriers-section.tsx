@@ -5,7 +5,7 @@ import { ShoppingCart, Bot, Armchair, TrendingUp, ArrowRight } from "lucide-reac
 const products = [
   {
     icon: ShoppingCart,
-    title: "AI Support software",
+    title: "Direct Sales Engine",
     description:
       "Own the passenger relationship with a stunning, mobile-first booking platform that transforms your website into a direct revenue channel -- reducing intermediary costs and building lasting loyalty.",
     cta: "See the engine",
