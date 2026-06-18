@@ -43,10 +43,10 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-110"
         style={{ backgroundImage: "url('/eco-friendly-car-on-paper-cut-green-landscape-illustration-4k.jpeg')" }}
       />
-      {/* Animated illustration overlays */}
-      <HeroAnimations />
       {/* Light overlay */}
       <div className="absolute inset-0 bg-white/40" />
+      {/* Animated illustration overlays - above the white overlay */}
+      <HeroAnimations />
       {/* Background grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(16,185,129,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(16,185,129,0.03)_1px,transparent_1px)] bg-[size:64px_64px]" />
 
