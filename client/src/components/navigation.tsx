@@ -32,7 +32,7 @@ export default function Navigation() {
         <a href="#" className="flex items-center gap-2.5">
           <img src="/90494.jpg" alt="Artcomp Technologies" className="h-9 w-auto object-contain" />
           <span className="text-lg font-bold tracking-tight text-foreground">
-            Artcomp Technologies
+            Artcomp
           </span>
         </a>
 

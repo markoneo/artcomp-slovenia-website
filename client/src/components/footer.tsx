@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
               <img src="/90494.jpg" alt="Artcomp Technologies" className="h-9 w-auto object-contain" />
-              <span className="text-lg font-bold text-foreground">Artcomp Technologies</span>
+              <span className="text-lg font-bold text-foreground">Artcomp</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
               Powering the shift to sustainable ground transportation across 35+ countries. An Artcomp Technologies initiative.
