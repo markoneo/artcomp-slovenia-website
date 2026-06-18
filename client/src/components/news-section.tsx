@@ -74,6 +74,7 @@ export default function NewsSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.1 * i }}
+              whileHover={{ y: -4, transition: { duration: 0.25 } }}
               className="group rounded-2xl border border-border bg-background p-6 hover:border-primary/20 hover:shadow-md transition-all duration-300 cursor-pointer"
             >
               <div className="flex items-center gap-3 mb-4">
