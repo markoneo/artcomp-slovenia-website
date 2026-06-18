@@ -39,7 +39,7 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-[3px]"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-110"
         style={{ backgroundImage: "url('/eco-friendly-car-on-paper-cut-green-landscape-illustration-4k.jpeg')" }}
       />
       {/* Light overlay */}
